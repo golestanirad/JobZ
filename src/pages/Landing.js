@@ -13,8 +13,11 @@ const Landing = () => {
   return (
     <div className={styles.container}>
       <nav className={styles.nav}>
-        <Logo />
+        <div className={styles.logo}>
+          <Logo />
+        </div>
       </nav>
+
       <div className={`container ${styles.page}`}>
         <div>
           <h1 className={styles.title}>

@@ -22,9 +22,9 @@ const BigSidebar = () => {
         }
       >
         <div className={styles.content}>
-          <header>
+          <div className={styles.logo}>
             <Logo />
-          </header>
+          </div>
           <NavLinks />
         </div>
       </div>
