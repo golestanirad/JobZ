@@ -1,0 +1,41 @@
+.loadingCenter {
+  margin: 0 auto;
+}
+.loading {
+  position: relative;
+  width: 6rem;
+  height: 6rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .bigLoading {
+    width: 6rem;
+    height: 6rem;
+    border: 5px solid var(--grey-300);
+    border-top-color: var(--primary-500);
+    animation: spinner 2s linear infinite;
+    position: absolute;
+  }
+
+  .smallLoading {
+    width: 3rem;
+    height: 3rem;
+    border: 5px solid var(--grey-100);
+    border-top-color: var(--primary-500);
+    animation: small-spinner 2s linear infinite;
+    top: 3rem;
+    left: 3rem;
+  }
+  @keyframes spinner {
+    to {
+      transform: rotate(360deg);
+    }
+  }
+
+  @keyframes small-spinner {
+    to {
+      transform: rotate(-360deg);
+    }
+  }
+}
