@@ -1,4 +1,4 @@
-This is a sample project to showcase Redux-Toolkit.
+This is a my latest sample project to showcase Redux-Toolkit.
 
 Redux-Toolkit is the latest version of Redux, created, backed, and strongly suggested by the Redux team.
 
