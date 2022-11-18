@@ -1,0 +1,17 @@
+.container {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  .logo {
+    width: 30%;
+    height: 100%;
+    margin-right: 10px;
+  }
+  .title {
+    font-family: "Satisfy", cursive;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
